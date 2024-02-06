@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Montserrat:wght@100;200;300;400;500;600&family=Nunito:wght@200;300;400;600;700&family=Rock+Salt&display=swap');
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: none;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+*::selection{
+    background: #9E007D;
+    color: #FFFFFF ;
+}
+
+body{
+    /* background-color: #7751A8; */
+    background-image: url(background-speech.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    display: flex;
+}
+
+.container_main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    background-color: #100122;
+    color: white;
+    width: 30rem;
+    height: 29rem;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 2px 4px 100px 2px rgba(54, 54, 54, 0.3);
+    padding: 25px 30px;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 4px solid; /* Remove linear-gradient from here */
+    border-image: linear-gradient(45deg, #AE0E7C, #0d0233, #5b035b, white) 2; /* Add border-image */
+}
+
+
+.container h2{
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.container .inner{
+    padding: 0.5rem 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.container .inner textarea{
+    resize: none;
+    background-color: #130228;
+    color: #FFFFFF;
+    padding: 1rem;
+}
+
+.container .inner label{
+    font-size: 18px;
+    padding: 0.4rem 0;
+}
+
+.container .inner select{
+    width: 24rem;
+    height: 3rem;
+    background-color: #130228;
+    color: #FFFFFF;
+}
+
+.container .btn_container button{
+    width: 24rem;
+    height: 3rem;
+    color: #FFFFFF;
+    background: linear-gradient(45deg, #AE0E7C, #0d0233, #5b035b, white);
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
